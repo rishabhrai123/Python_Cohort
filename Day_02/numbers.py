@@ -135,6 +135,7 @@ print(math.factorial(5))
 print(math.gcd(12, 18))
 print(math.pi)
 print(math.e)
+print(math.trunc(10.99))
 
 # Output:
 # 5.0
@@ -142,6 +143,7 @@ print(math.e)
 # 4
 # 120
 # 6
+#10
 
 
 # --------------------------------------------
@@ -150,7 +152,7 @@ print(math.e)
 
 import random
 
-print(random.randint(1, 10))
+print(random.randint(1, 10)) # Gives  random integer
 print(random.random())
 print(random.choice(["Red", "Blue", "Green"]))
 
