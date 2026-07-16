@@ -238,6 +238,13 @@ print(text.swapcase())
 # PYTHON PROGRAMMING
 
 
+text = "   Python   "
+
+print(text.strip())
+
+#  Outputs: Python
+
+
 # ============================================
 # 15. Searching Methods
 # ============================================
